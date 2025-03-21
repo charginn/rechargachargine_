@@ -1,5 +1,5 @@
 import React from 'react'
-import About4Image from '../images/About4Image.png'
+import About4image from '../images/About4image.png'
 import SVG1 from '../images/SVG1.png'
 import SVG2 from '../images/SVG2.png'
 import SVG3 from '../images/SVG3.png'
@@ -18,7 +18,7 @@ const About4 = () => {
                         incorporating a multi-rotor concept.</div>
                 </div>
                 <div className='imagePart'>
-                    <img src={About4Image} />
+                    <img src={About4image} />
                 </div>
             </div>
             <div></div>

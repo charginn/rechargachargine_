@@ -3,8 +3,8 @@ import sec1 from '../images/sec1.png'
 import sec2 from '../images/sec2.png'
 import sec3 from '../images/sec3.png'
 import dots from '../images/dots.png'
-import sling from '../images/sling.png'
-import { useRef } from 'react';
+import Sling from '../images/Sling.png'
+
 
 
 import '../csss/HomeCSS/Section5.css'
@@ -35,7 +35,7 @@ const Section5 = () => {
               <li>The generator's rotating magnets induce current in coils, producing electricity.</li>
                </ul>
             </div>
-            <img className='sling' src={sling} />
+            <img className='sling' src={Sling} />
             <div className='step2'>
             <img className='sec2' src={sec2} />
               <img className='dot2' src={dots} />

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../csss/HomeCSS/Section6.css'; // Make sure you have proper CSS
+import '../csss/HomeCSS/Section6.css';
 
 const Section6 = () => {
   const [formData, setFormData] = useState({
