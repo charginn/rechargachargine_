@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 .contact2{
     padding:100px;
     width:100%;
@@ -135,14 +136,13 @@
     margin-top:-200px;
    margin-left:1100px;
   }
- 
-  /* Responsive Design for Mobile Screens (Phones) */
+}
+  
 @media (max-width: 767px) {
   .contact2 {
     margin-top:120vh;
-      flex-direction: column; /* Stack elements vertically */
-      padding: 30px 20px; /* Reduce padding */
-      /* Allow content to expand */
+      flex-direction: column; 
+      padding: 30px 20px; 
   }
 
   /* Center and resize form */

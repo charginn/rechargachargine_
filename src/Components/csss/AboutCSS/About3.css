@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 .about3{
     padding:80px;
     background-color:white;
@@ -74,7 +75,7 @@
     margin-top:-200px;
     width:1025px;
     margin-left:250px;
-  }
+  }}
   @media (max-width: 768px) {
     .about3 {
      

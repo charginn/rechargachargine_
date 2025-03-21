@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 .about4{
     width:100%;
     position:relative;
@@ -71,7 +72,7 @@
    
   }
 
-
+}
 
 
 @media (max-width: 768px) 
