@@ -1,7 +1,7 @@
 import React from 'react';
 import mountain from './Components/images/mountain.png';
 import human from './Components/images/human.png';
-import whiteHD from './Components/images/whiteHS.png';
+import whiteHS from './Components/images/whiteHS.png';
 import Charger2 from './Components/images/Charger2.png';
 import greenVector from './Components/images/greenVector.png';
 import footerBackground from './Components/images/footerBackground.jpg';
@@ -28,7 +28,7 @@ const Footer = () => {
           {/* Blue Button */}
           <div className='blue-button'>
             
-              <img src={whiteHD} alt="Headset" className='headset2' />
+              <img src={whiteHS} alt="Headset" className='headset2' />
               <div className='call2'>
                 <div>+91-9322107991</div>
                 <div>  Call Us Anytime</div>
