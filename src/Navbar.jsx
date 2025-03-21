@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import At from './components/images/At.png';
-import Facebook from './components/images/Facebook.png';
-import Linkedln from './components/images/Linkedln.png';
-import Location2 from './components/images/Location2.png';
-import Twitter from './components/images/Twitter.png';
-import whatsapp from './components/images/whatsapp.png';
-import NewHeadset from './components/images/NewHeadset.png';
+const At = "/At.png";
+const Facebook = "/Facebook.png";
+const Linkedln = "/Linkedln.png";
+const Location2 = "/Location2.png";
+const Twitter = "/Twitter.png";
+const whatsapp = "/whatsapp.png";
+const NewHeadset = "/NewHeadset.png";
 const Charger2Path = "/Charger2.png";
 
 import './components/csss/navbar.css';
