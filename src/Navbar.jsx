@@ -10,7 +10,6 @@ import NewHeadset from './Components/images/NewHeadset.png';
 import Charger2 from './Components/images/Charger2.png';
 import './Components/csss/navbar.css';
 
-
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
