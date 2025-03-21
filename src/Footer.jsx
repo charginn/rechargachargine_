@@ -1,10 +1,10 @@
 import React from 'react';
-import mountain from './components/images/mountain.png';
-import human from './components/images/human.png';
-import whiteHD from './components/images/whiteHS.png';
-import Charger2 from './components/images/Charger2.png';
-import greenVector from './components/images/greenVector.png';
-import footerBackground from './components/images/footerBackground.jpg';
+import mountain from './Components/images/mountain.png';
+import human from './Components/images/human.png';
+import whiteHD from './Components/images/whiteHS.png';
+import Charger2 from './Components/images/Charger2.png';
+import greenVector from './Components/images/greenVector.png';
+import footerBackground from './Components/images/footerBackground.jpg';
 
 import "./Components/csss/footer.css";
 
