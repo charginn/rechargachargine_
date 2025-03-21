@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import mail from '../images/mail.png';
-import headset from '../images/headset.png';
+import headset from '../images/HeadSet.png';
 import Location from '../images/Location.png';
 import Svgc1 from '../images/Svgc1.png';
 import scgc2 from '../images/svgc2.png';
