@@ -6,7 +6,7 @@ import Charger2 from './components/images/Charger2.png';
 import greenVector from './components/images/greenVector.png';
 import footerBackground from './components/images/footerBackground.jpg';
 
-import "./Components/csss/HomeCSS/footer.css";
+import "./Components/csss/footer.css";
 
 
 const Footer = () => {

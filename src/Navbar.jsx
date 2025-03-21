@@ -8,7 +8,7 @@ import Twitter from './Components/images/Twitter.png';
 import whatsapp from './Components/images/whatsapp.png';
 import NewHeadset from './Components/images/NewHeadset.png';
 import Charger2 from './Components/images/Charger2.png';
-import "./Components/csss/HomeCSS/navbar.css";
+import "./Components/csss/navbar.css";
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
