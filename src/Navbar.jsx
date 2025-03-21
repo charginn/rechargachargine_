@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-const At = "/At.png";
-const Facebook = "/Facebook.png";
-const Linkedln = "/Linkedln.png";
-const Location2 = "/Location2.png";
-const Twitter = "/Twitter.png";
-const whatsapp = "/whatsapp.png";
-const NewHeadset = "/NewHeadset.png";
-const Charger2Path = "/Charger2.png";
+import At from './Components/images/At.png';
+import Facebook from './Components/images/Facebook.png';
+import Linkedln from './Components/images/Linkedln.png';
+import Location2 from './Components/images/Location2.png';
+import Twitter from './Components/images/Twitter.png';
+import whatsapp from './Components/images/whatsapp.png';
+import NewHeadset from './Components/images/NewHeadset.png';
+import Charger2 from './Components/images/Charger2.png';
 
-import './components/csss/navbar.css';
+
+import './Components/csss/navbar.css';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
         <>
         <div className='navbar'>
             <div className='first'>
-                <div className='logo'> <img src={Charger2Path} alt="Logo" /></div>
+                <div className='logo'> <img src={Charger2} alt="Logo" /></div>
                 <div className='name'>Recharga Chargine</div>
                 <div className='hamburger' onClick={() => setMenuOpen(!menuOpen)}>
                     &#9776; {/* Hamburger icon */}
