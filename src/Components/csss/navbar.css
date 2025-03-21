@@ -1,3 +1,5 @@
+
+@media (min-width: 1024px){
 .navbar{
    background-color: rgba(0, 0, 0, 0.4);
    display:flex;
@@ -239,6 +241,7 @@
   padding: 10px;
   text-align: center;
   color:white;
+}
 }
 
 @media (max-width: 650px) {

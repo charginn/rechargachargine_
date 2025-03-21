@@ -1,3 +1,4 @@
+@media (min-width: 1024px){
 .section6{
     display:flex;
     background:linear-gradient(180deg, #FFFFFF 0%, #E7F8F0 100%);
@@ -126,7 +127,7 @@
    display:flex;
    gap:20px;
    }
-
+  }
    @media (max-width: 768px) {  
    .section6 {
     display: flex;
