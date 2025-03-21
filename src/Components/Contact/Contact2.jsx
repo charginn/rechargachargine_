@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import mail from '../images/mail.png';
-import Headset from '../images/Headset.png';
+import headset from '../images/headset.png';
 import Location from '../images/Location.png';
 import Svgc1 from '../images/Svgc1.png';
 import scgc2 from '../images/svgc2.png';
@@ -118,7 +118,7 @@ const Contact2 = () => {
           <span className='Git'>Get In Touch</span>
           <div className='for'>For More Inquiry Give Us A call</div>
           <div className='info'>
-            <div><img src={Headset} alt="Headset" />+919322107991</div>
+            <div><img src={headset} alt="Headset" />+919322107991</div>
             <div><img src={Location} alt="Location" />Jaipur, Rajasthan</div>
             <div><img src={mail} alt="Mail" />salesinquiry@rechargachargibe.com</div>
           </div>
