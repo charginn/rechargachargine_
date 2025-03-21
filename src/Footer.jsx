@@ -18,7 +18,7 @@ const Footer = () => {
         <div className='para'>
           RCG believes in sustainable energy practices that can help preserve our planet.
         </div>
-            {/* Green Vector, Mountain, and Human Images */}
+            {/* Green Vector, Mountain, d Human Images */}
         <div>
             <img className='greenVC' src={greenVector} alt="Green Vector" />
             <img className='Mt' src={mountain} alt="Mountain" />
