@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import mail from '../images/mail.png';
 import headset from '../images/HeadSet.png';
 import Location from '../images/Location.png';
-import Svgc1 from '../images/Svgc1.png';
+import Svgc1 from '../images/svgc1.png';
 import scgc2 from '../images/svgc2.png';
 import svgc3 from '../images/svgc3.png';
 import svgc4 from '../images/svgc4.png';
@@ -126,7 +126,7 @@ const Contact2 = () => {
         <div className='contactImage'>
           <img className='path' src={svgc6} alt="SVG6" />
           <div className='mills'>
-            <img className='Svgc1' src={Svgc1} alt="Svgc1" />
+            <img className='svgc1' src={Svgc1} alt="Svgc1" />
             <img className='scgc2' src={scgc2} alt="scgc2" />
             <img className='scgc3' src={svgc3} alt="svgc3" />
             <img className='scgc4' src={svgc4} alt="svgc4" />
