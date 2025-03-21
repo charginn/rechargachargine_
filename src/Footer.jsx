@@ -4,8 +4,10 @@ import human from './components/images/human.png';
 import whiteHD from './components/images/whiteHS.png';
 import Charger2 from './components/images/Charger2.png';
 import greenVector from './components/images/greenVector.png';
-import './Components/csss/footer.css';
 import footerBackground from './components/images/footerBackground.jpg';
+
+import "./Components/csss/HomeCSS/footer.css";
+
 
 const Footer = () => {
   return (
