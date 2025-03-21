@@ -3,7 +3,7 @@ import mountain from './Components/images/mountain.png';
 import human from './Components/images/human.png';
 import whiteHS from './Components/images/whiteHS.png';
 import Charger2 from './Components/images/Charger2.png';
-import GreenVector from './Components/images/GreenVector.png';
+import greenVector from './Components/images/greenVector.png';
 import footerBackground from './Components/images/footerBackground.jpg';
 import "./Components/csss/footer.css";
 
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
             {/* Green Vector, Mountain, d Human Images */}
         <div>
-            <img className='greenVC' src={GreenVector} alt="Green Vector" />
+            <img className='greenVC' src={greenVector} alt="Green Vector" />
             <img className='Mt' src={mountain} alt="Mountain" />
             <img className='Hm' src={human} alt="Human" />
         </div>
