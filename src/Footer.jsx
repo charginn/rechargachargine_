@@ -1,11 +1,11 @@
 import React from 'react';
-const human = "/human.png";
-const mountain = "/mountain.png";
-const whiteHD = "/whiteHS.png";
-const Charger2 = "/Charger2.png";
-const greenVector = "/greenVector.png";
-const footerBackground = "/footerBackground.jpg";
-import './components/csss/footer.css';
+import mountain from './components/images/mountain.png';
+import human from './components/images/human.png';
+import whiteHD from './components/images/whiteHS.png';
+import Charger2 from './components/images/Charger2.png';
+import greenVector from './components/images/greenVector.png';
+import './Components/csss/footer.css';
+import footerBackground from './components/images/footerBackground.jpg';
 
 const Footer = () => {
   return (
