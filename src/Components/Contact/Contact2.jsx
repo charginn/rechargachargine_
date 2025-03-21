@@ -3,7 +3,7 @@ import mail from '../images/mail.png';
 import headset from '../images/HeadSet.png';
 import Location from '../images/Location.png';
 import svgc1 from '../images/svgc1.png';
-import scgc2 from '../images/svgc2.png';
+import svgc2 from '../images/svgc2.png';
 import svgc3 from '../images/svgc3.png';
 import svgc4 from '../images/svgc4.png';
 import svgc5 from '../images/svgc5.png';
@@ -127,7 +127,7 @@ const Contact2 = () => {
           <img className='path' src={svgc6} alt="SVG6" />
           <div className='mills'>
             <img className='svgc1' src={svgc1} alt="Svgc1" />
-            <img className='scgc2' src={scgc2} alt="scgc2" />
+            <img className='svgc2' src={svgc2} alt="scgc2" />
             <img className='scgc3' src={svgc3} alt="svgc3" />
             <img className='scgc4' src={svgc4} alt="svgc4" />
             <img className='scgc5' src={svgc5} alt="svgc5" />
