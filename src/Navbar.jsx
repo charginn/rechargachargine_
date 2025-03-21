@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Charger2 from './components/images/Charger2.png';
 import At from './components/images/At.png';
 import Facebook from './components/images/Facebook.png';
 import Linkedln from './components/images/Linkedln.png';
@@ -8,6 +7,8 @@ import Location2 from './components/images/Location2.png';
 import Twitter from './components/images/Twitter.png';
 import whatsapp from './components/images/whatsapp.png';
 import NewHeadset from './components/images/NewHeadset.png';
+const Charger2Path = "/Charger2.png";
+
 import './components/csss/navbar.css';
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
         <>
         <div className='navbar'>
             <div className='first'>
-                <div className='logo'> <img src={Charger2} alt="Logo" /></div>
+                <div className='logo'> <img src={Charger2Path} alt="Logo" /></div>
                 <div className='name'>Recharga Chargine</div>
                 <div className='hamburger' onClick={() => setMenuOpen(!menuOpen)}>
                     &#9776; {/* Hamburger icon */}

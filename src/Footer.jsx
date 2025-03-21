@@ -1,9 +1,8 @@
 import React from 'react';
-import Charger2 from './components/images/Charger2.png';
 import mountain from './components/images/mountain.png';
 import human from './components/images/human.png';
 import whiteHD from './components/images/whiteHS.png';
-
+const Charger2 = "/Charger2.png";
 import greenVector from './components/images/greenVector.png';
 import './components/csss/footer.css';
 import footerBackground from './components/images/footerBackground.jpg';

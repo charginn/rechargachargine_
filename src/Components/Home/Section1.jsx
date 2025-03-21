@@ -3,7 +3,7 @@ import image1 from "../images/image1.jpg"
 import image2 from "../images/image2.png"
 import image3 from "../images/image3.png"
 import Sticker from "../images/Sticker.jpg"
-import Charger2 from "../images/Charger2.png"
+const Charger2 = "/Charger2.png";
 import '../csss/HomeCSS/Section1.css'
 
 
