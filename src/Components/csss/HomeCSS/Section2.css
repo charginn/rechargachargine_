@@ -81,10 +81,11 @@
 @media (max-width: 768px) {
     
     .section2 {
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
-    padding: 40px 20px; /* Adjust padding */
+    padding-top:150px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #E7F8F0 100%);
   }
 
   .section2 .left {
@@ -97,6 +98,8 @@
     padding: 10px;
     width: fit-content;
     margin: -100px auto 10px auto;
+    background-color: #00FE5E;
+    border-radius: 5px;
   }
 
   .section2 .left .headline {
@@ -139,7 +142,8 @@
   .section2 .Right .paragraph {
     font-size: 16px;
     margin-top: 20px ;
-    margin-left:60px;
+    margin-left:10px;
+    padding: 0 20px;
    
   }
 
@@ -148,9 +152,22 @@
     padding: 10px 20px;
     border-radius: 30px;
     display: inline-block;
-    margin: 40px 0px 20px 250px;
+    margin: 20px 0px 20px 180px;
+    background-color: #00FE5E;
   }
   .background, .Cards {
     display: none;
+
+}.section1 .text .greene{
+  font-size:18px;
+  color:black;
+  background-color:#00FE5E;
+  padding:15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-radius:5px;
+  margin-top:0px;
+  margin-left:-300px;
+ 
 }
 }

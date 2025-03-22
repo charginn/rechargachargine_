@@ -642,7 +642,8 @@ background:none;
  
 
  /* for mobile */
- @media (max-width: 768px) {
+ @media (max-width: 768px)  {
+   
  
   .hamburger {
     display: block;
@@ -767,7 +768,7 @@ background:none;
   .section1 .image1 {
     padding-top: 17px;
     margin-top:230px;
-    height: 200px;
+    height: 300px;
     width: auto;
     max-width: 80%;
     padding-left:35px;
@@ -786,7 +787,7 @@ background:none;
     display: none;
   }
   .section1 .greene {
-    margin-left:-430px;
+    margin-left:-410px !important;
     
   }
 
@@ -943,4 +944,109 @@ visibility:hidden;
 
 
 }
- 
+@media (max-width: 480px) {
+
+
+ .hamburger {
+    margin-left: 300px!important;
+    margin-top: -35px;
+    font-size: 34px;
+ }
+ .mobile-menu {
+    padding-top: 30px;
+    height: 520px;
+
+ }
+  .navbar .first .name {
+      font-size: 20px;
+  }
+  .navbar .mobile-menu li a{
+    color:white;
+    border: 1px solid #00FE5E;
+    text-decoration: none;
+        font-weight:500;
+        font-size:18px;
+        padding:20px 100px!important;
+        
+  }
+  .mobile-menu .mail{
+    display:flex;
+    margin-top:35px !important;
+    gap:12px;
+    font-size:14px;
+  }
+  .section1 {
+    height: auto;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .section1  .contact {
+    font-size: 14px; 
+    padding-bottom:-2000px; 
+    margin-top:-20px!important;
+    background-color: #00FE5E; 
+    color: black; 
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius:30px; 
+    cursor: pointer;
+    
+    height: auto;
+    
+  }
+
+  .section1 .text .list{
+    display:flex;
+    margin-left:-330px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding:5px;
+  gap:20px;
+  font-size:20px;
+  
+  }
+  .section1 .text .quote {
+    font-size: 20px;
+    margin-top:400px;
+    margin-left:-420.5px;
+
+  }
+  .section1 .text .greene{
+    font-size:18px;
+    color:black;
+    background-color:#00FE5E;
+    padding:15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius:5px;
+    margin-top:0px;
+    margin-left:-400px!important;
+}
+.section1 .greenCircle{
+  margin-left:-150px;
+  margin-top:-30px;
+  height:120px;
+
+}
+.section1 .image1 {
+  padding-top: 17px;
+  height: 300px !important;
+  width: 200px !important;
+}
+
+.section1 .chargerr2{
+  margin-top:-50px;
+  height:50px;
+  margin-left:-177px;
+
+
+}
+}
