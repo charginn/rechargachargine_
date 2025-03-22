@@ -4,6 +4,7 @@ import Card1 from'../images/Card1.png';
 import Card2 from '../images/Card2.png';
 import Lazer from '../images/Lazer.png';
 import '../csss/HomeCSS/Section2.css';
+
 const Section2 = () => {
     return (
         <div className='section2'>
