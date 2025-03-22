@@ -1,4 +1,4 @@
-@media (min-width: 1024px){
+
 .about2{
     box-sizing:border-box;
     margin-top:0px;
@@ -67,7 +67,7 @@
       color:white;
       margin-left:40px;
       width:120vh;
-    }}
+    }
     @media (max-width: 768px) {
         .about2 {
             box-sizing: border-box;

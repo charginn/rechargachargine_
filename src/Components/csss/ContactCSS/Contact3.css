@@ -1,4 +1,4 @@
-@media (min-width: 1024px){
+
 .contact3{
   margin-left:100px;
  height:100vh;
@@ -13,7 +13,7 @@
   width:100%;
   height:600px;
 }
-}
+
 @media (max-width: 767px) {
   .contact3 {
     margin-top:-100vh;

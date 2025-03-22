@@ -1,4 +1,4 @@
-@media (min-width: 1024px){
+
 .section4_1{
     background-color:white;
     height:100vh;
@@ -192,7 +192,7 @@
         font-size:20px;
        }
     
-      }
+   
 @media (max-width: 768px) {
        .section4_1,
   .section4_2 {
