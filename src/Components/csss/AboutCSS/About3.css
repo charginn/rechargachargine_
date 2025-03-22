@@ -1,4 +1,4 @@
-
+@media (min-width: 1024px) and (max-width: 1440px) {
 .about3{
     padding:80px;
     background-color:white;
@@ -76,7 +76,8 @@
     width:1025px;
     margin-left:250px;
   }
-  @media (max-width: 768px) {
+}
+ 
     .about3 {
      
         padding: 30px 10px;
@@ -137,4 +138,4 @@
        
       }
       
-  }
+  
