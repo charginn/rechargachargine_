@@ -88,6 +88,7 @@
     padding:100px;
     width:100%;
     margin-left:100px;
+  
   }
   .about5_3 .box{
     padding:100px;
@@ -117,7 +118,7 @@
     display:flex;
     padding:100px;
     margin-right:100px;
-    height:100px;
+
   }
   .about5_4 .box{
     padding:100px;
@@ -346,7 +347,7 @@
   flex-direction: column; /* Stack items vertically on mobile */
   align-items: center; /* Center items horizontally */
   gap: 20px; 
-  height:800px; /* Add gap between items */
+  height:900px; /* Add gap between items */
 }
 
 /* Box inside about5_2 */

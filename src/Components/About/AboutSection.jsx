@@ -17,7 +17,6 @@ const AboutSection = () => {
         <About3/>
         <About4/>
         <About5_1/>
-        
         <About5_2/>
         <About5_3/>
         <About5_4/>

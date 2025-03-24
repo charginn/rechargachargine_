@@ -32,7 +32,7 @@ const Navbar = () => {
                     </div>
                     <div className='item2'>
                         <div><img className='at' src={Location2} alt="Location" /></div>
-                        <div>Jaipur, Rajasthan</div>
+                        <div>Jaipur,Rajasthan</div>
                     </div>
                     <ul className='items'>
                         <img src={whatsapp} alt="WhatsApp" />
@@ -68,9 +68,9 @@ const Navbar = () => {
             {/* Mobile Menu */}
             {menuOpen && (
                 <div className='mobile-menu'>
-                    <li><Link to='/Home' onClick={() => setMenuOpen(false)}>Home</Link></li>
-                    <li><Link to='/About' onClick={() => setMenuOpen(false)}>About</Link></li>
-                    <li><Link to='/Contact' onClick={() => setMenuOpen(false)}>Contact</Link></li>
+                    <li><Link to='/Home' onClick={() => setMenuOpen(false)} className='home'>Home</Link></li>
+                    <li><Link to='/About' onClick={() => setMenuOpen(false)}className='about'>About</Link></li>
+                    <li><Link to='/Contact' onClick={() => setMenuOpen(false)} className='contact'>Contact</Link></li>
                     <div>
                         <div>
                             <div className='mail'>

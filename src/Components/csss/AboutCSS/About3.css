@@ -3,7 +3,9 @@
     padding:80px;
     background-color:white;
     display:flex;
-    margin:0px 130px 0px 170px;
+    justify-content:center;
+    text-align:center;
+ 
     gap:100px;
     background-color:white;
     height:500px;
@@ -12,7 +14,7 @@
     display:flex;
     justify-content:space-between;
     gap:30px;
-    margin-left:-20px;
+    margin-left:60px;
     
   }
  
@@ -116,9 +118,8 @@
       }
       .about33 img {
         width: 15px;
-        margin-top:-10px;
-        margin-left:220px;
-       
+        margin-top:-10px!important;
+        margin-left:660px!important;
       }
     
       .about3 .small1{
@@ -136,6 +137,18 @@
        margin-top:-30px;
        margin-left:200px;
        
+      }
+      @media(max-width:768px){
+        .about3{
+          margin-left:260px;
+        }
+        .about3 .block2{
+          margin-left:-150px;
+        }
+        .about33 img{
+          margin-top:-300px;
+          margin-left:-700px!important;
+        }
       }
       
   

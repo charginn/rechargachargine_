@@ -181,7 +181,7 @@ color:white;
 .navbar .second .top::after {
  content: "";
  display: block;
- width: 1300px;
+ width:76.5vw;
  height: 0.5px;
  background-color: grey; /* Grey line */
  position: absolute;
@@ -449,12 +449,6 @@ background:none;
     height:100%;
   }
 
-
-   .about1{
-     background-color:black;
-   }
-
-
   .AboutImage{
     width:100%;
    
@@ -642,8 +636,9 @@ background:none;
  
 
  /* for mobile */
- @media (max-width: 768px)  {
-   
+ @media (max-width: 768px)  
+ {
+
  
   .hamburger {
     display: block;
@@ -938,17 +933,23 @@ visibility:hidden;
   display:none;
 }
 .AboutImage {
-  height: 80vh; 
+  height: 90vh; 
   object-fit: cover; 
 }
 
+.about1{
+  height: 90vh;
+}
 
 }
 @media (max-width: 480px) {
-
+ 
+  .navbar {
+    width: 100%!important;
+  }
 
  .hamburger {
-    margin-left: 300px!important;
+    margin-left: 270px!important;
     margin-top: -35px;
     font-size: 34px;
  }
@@ -1016,7 +1017,7 @@ visibility:hidden;
   .section1 .text .quote {
     font-size: 20px;
     margin-top:400px;
-    margin-left:-420.5px;
+    margin-left:-400.5px;
 
   }
   .section1 .text .greene{
@@ -1031,7 +1032,7 @@ visibility:hidden;
     margin-left:-400px!important;
 }
 .section1 .greenCircle{
-  margin-left:-150px;
+  margin-left:-140px ! important;
   margin-top:-30px;
   height:120px;
 
@@ -1045,8 +1046,129 @@ visibility:hidden;
 .section1 .chargerr2{
   margin-top:-50px;
   height:50px;
-  margin-left:-177px;
+  margin-left:-177px!important;
 
 
+}
+.section1 .images {
+ display:flex;
+ justify-content:center;
+}
+.section3 .row .col{
+  height:350px!important;
+
+}
+.section3 .row .col .line{
+  margin-top:10px;
+}
+.section3 .row .col .greencard{
+  margin-top:30px !important;
+}
+  
+  .section3 .row .col .num3{
+    margin-top:57px!important;
+  }
+  .section3 .row .col .greencard3{
+    margin-top:80px!important;
+  }
+  .footer .second .firstElement {
+    margin-top: -820px ;
+    margin-left: -270px!important;
+  }
+  .footer .second .call {
+    margin: -160px auto;
+    margin-left:-200px !important;
+    line-height: normal;
+    font-size:14px;
+  }
+  .footer .second .call .caps {
+    font-size: 14px;
+    margin-left: 150px!important;
+  }
+  .footer .second .three .t1 {
+    font-size: 14px;
+    margin-left: -6px!important;
+  }
+ 
+ .footer .third{
+  margin-left:30px!important;
+ }
+ .about2 .button2{
+  padding-top:-123px!important;
+  margin-top:-280px!important;
+ 
+  margin-left:0px!important;
+  margin-right:0px!important;
+
+ }
+  .about2 .button2 button{
+  padding:15px !important;
+  }
+  .about2 .block2 .AboutImage1{
+    margin-top:-200px!important;
+    padding-left:20px!important;
+  
+  }
+ .about3{
+  margin-left:250px!important;
+}
+.
+
+.about3 .small1 .num,
+.about3 .small2 .num{
+  font-size: 35px!important; 
+ }
+ .about4{
+  height:160vh !important;
+  
+ }
+ .about4 .block2 {
+  display:flex;
+  margin-left:0px!important;
+ 
+}
+.about5_3 img {
+  width: 100%; 
+  max-width: 300px!important; 
+  margin-bottom: 20px; 
+  order: -1; 
+}.about5_4 img {
+  width: 100%; 
+  max-width: 300px!important; 
+  margin-bottom: 20px; 
+  order: -1; 
+}
+.about4 .block2Part .heading{
+  font-size: 15px!important;
+  padding-left:10px;
+  padding-top:20px;
+  font-weight: 550 !important;
+}
+
+ .about1{
+  height:90vh;
+ }
+ .AboutImage{
+  height:90vh!important;
+ }
+ .contactImage {
+  width: 100vw;  
+  height: 90vh!important; 
+  
+}
+.contact2{
+  height:110vh!important;
+}
+.contact2 .contactCard {
+  margin-top:70px!important;
+}
+.contact3{
+  height:110vh!important;
+}
+.contact2 .for {
+  margin-top: -20px!important;
+  padding-left: 100px!important;
+  padding-right: 100px!important;
+ 
 }
 }
