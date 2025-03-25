@@ -17,8 +17,8 @@ const Section3 = () => {
                     <div className='heading'>Cutting Edge Design</div>
                     <p className='content'>Our proprietary multi-stator, multi-rotor configuration maximizes power output while minimizing energy waste.</p>
                     <div className='line'>
-                        <div className='num'>01</div>
-                        <div className='greencard'><img src={BSVG1} /></div>
+                        <div className='num' id='num1'>01</div>
+                        <div className='greencard' id='id1'><img src={BSVG1} /></div>
                     </div>
                 </div>
                 <div className='col' id='col1'>
@@ -41,8 +41,8 @@ const Section3 = () => {
                     <div className='heading'>Scalable and Reliable</div>
                     <p className='content'>Designed for modularity and robustness, the RCG seamlessly integrates into operations of any scale.</p>
                     <div className='line'>
-                        <div className='num'>04</div>
-                        <div className='greencard'><img src={BSVG3}/></div>
+                        <div className='num' id='id4'>04</div>
+                        <div className='greencard'id='new' ><img src={BSVG3}/></div>
                     </div>
                 </div>
                

@@ -189,11 +189,10 @@
   }
 
   .section3 .row {
-   /* Stack items */
     align-items: center;
-    gap: 60px;
-    padding-left:60px;
- 
+    gap: 70px;
+    padding-left:35px;
+   
     margin: 0;
     padding-top:50px;
     margin-bottom:-70px;
@@ -308,5 +307,14 @@
     padding-top:15px;
     padding-left:8px;
   }
+  .section3 #id4{
+    margin-top:30px;
+  }
+  .section3 #new {
+    padding:10px;
+    padding-top:10px;
+    margin-top:50px!important;
+  }
+  
   
 }

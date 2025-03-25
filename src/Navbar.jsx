@@ -37,7 +37,7 @@ const Navbar = () => {
                     <ul className='items'>
                         <img src={whatsapp} alt="WhatsApp" />
                         <img src={Twitter} alt="Twitter" />
-                        <img src={Linkedln} alt="LinkedIn" />
+                        <Link to='https://www.linkedin.com/company/recharga-chargine/'><img src={Linkedln} alt="LinkedIn" /></Link>
                         <img src={Facebook} alt="Facebook" />
                         <select className='eng' disabled>
                             <option value="Eng">Eng</option>

@@ -310,7 +310,13 @@ background:none;
     margin-top:-5px;
     
   }
-
+  .section3 #num1{
+    padding-top:18px;
+  }
+ .section3 #id1{
+  margin-top:50px;
+  padding-bottom:0px;
+ }
 
   .images{
    display:flex;
@@ -1025,9 +1031,9 @@ visibility:hidden;
   .section1 {
     height: auto;
     padding-top: 20px;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    padding-left: 50px!important;
     
   }
 
@@ -1078,7 +1084,7 @@ visibility:hidden;
     margin-left:-400px!important;
 }
 .section1 .greenCircle{
-  margin-left:-140px ! important;
+  margin-left:-170px ! important;
   margin-top:-30px;
   height:120px;
 
@@ -1090,9 +1096,9 @@ visibility:hidden;
 }
 
 .section1 .chargerr2{
-  margin-top:-50px;
+  margin-top:-70px;
   height:50px;
-  margin-left:-177px!important;
+  margin-left:-200px!important;
 
 
 }
@@ -1103,6 +1109,9 @@ visibility:hidden;
 .section3 .row .col{
   height:350px!important;
 
+}
+.section3 .row {
+  padding-right:35px;
 }
 .section3 .row .col .line{
   margin-top:10px;
@@ -1155,10 +1164,13 @@ visibility:hidden;
     padding-left:20px!important;
   
   }
+  .about2 .Content1{
+    margin-left:25px!important;
+  }
  .about3{
   margin-left:250px!important;
 }
-.
+
 
 .about3 .small1 .num,
 .about3 .small2 .num{
