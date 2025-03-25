@@ -103,7 +103,7 @@ const Section6 = ({section6ref}) => {
           <textarea placeholder='Message*' name="message" onChange={handleChange} value={formData.message} />
           <div className='checkbox-div'>
             <input type="checkbox" className='checkbox' name="agreeTerms" onChange={handleChange} checked={formData.agreeTerms} />
-            <label> Accept terms and conditions from Recharge Chargine</label>
+            <label> Accept terms and conditions from Recharga Chargine</label>
           </div>
           <button type="submit"className='' disabled={!isFormValid}>Send us an email</button> {/* ✅ Disable button if form is invalid */}
         </div>

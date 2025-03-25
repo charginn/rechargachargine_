@@ -58,16 +58,7 @@
       position:relative;
       
      }
-     .section4_1 .slider .slider-bar {
-      position: absolute;
-      height: 4px;
-      background-color:#86BB46 ; /* Color of active section */
-      width: 150px; /* Adjust based on text size */
-      border-radius: 2px;
-      transition: all 0.3s ease-in-out;
-      z-index:10;
-      top:-1px;
-    }
+     
      .section4_1 .big-image{
       width:100%;
       padding-top:20px;
