@@ -14,7 +14,7 @@
   height:600px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .contact3 {
     margin-top:-100vh;
     height:100vh;
@@ -22,10 +22,17 @@
     
   }
   .contact3 iframe{
-    width:160%;
+    width:140%;
     height:350px;
     margin-top:-30px;
     margin-left:-50px;
    
+  }
+  .contact2 form button{
+    color:black;
+    background-color:#00FE5E;
+    display:flex;
+    align-items:center;
+    justify-content:center;
   }
 }

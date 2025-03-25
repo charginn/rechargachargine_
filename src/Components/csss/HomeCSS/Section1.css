@@ -8,8 +8,6 @@
     display:flex;
   min-height: 90vh;
     padding-top:0px;
-   
-  overflow:hidden;
     
   }
   .images{
@@ -114,6 +112,7 @@
     margin-top:15px;
     
   }
+  
   .section1 .contact {
     font-size: 18px; 
     padding: 10px 20px; 
@@ -132,14 +131,16 @@
 @media (max-width: 768px) {
     .section1 {
         height: auto;
-        padding: 20px;
+        padding: 40px;
         text-align: center;
         display: flex;
         flex-direction: column;
         padding-left:27px;
       }
     
-      
+      .section1 .listItem{
+        padding-left:-20px!important;
+      }
     
       .section1 .image1 {
         padding-top: 17px;
@@ -217,9 +218,7 @@
       .section1 .text .list {
         flex-direction: column;
         gap: 10px;
-        margin-left:-359.5px;
-        
-        align-items:start;
+       
       }
     
 

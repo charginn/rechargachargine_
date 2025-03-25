@@ -92,7 +92,8 @@
   }
   .about5_3 .box{
     padding:100px;
-    
+    margin:0px 20px;
+    max-width: 70%; /* Limit width for better readability */
   }
   .about5_3 .box .bold{
     color:black;
@@ -112,13 +113,13 @@
     border-radius:10px;
     line-height: 1.5;
     color:#5C6972;
-    padding-right:100px;
+    
   }
   .about5_4 {
     display:flex;
     padding:100px;
     margin-right:100px;
-
+   
   }
   .about5_4 .box{
     padding:100px;
@@ -141,11 +142,11 @@
     font-weight:500;
     border-radius:10px;
     line-height: 1.5;
-    
-    
     color:#5C6972;
   }
-
+  .about5_4 img{
+    margin-bottom:100px;
+  }
 
 
 
@@ -224,7 +225,7 @@
   
   /* Image inside details */
   .about5_1 .details img {
-    width: 120%; /* Ensure image takes full width */
+    width: 100%; /* Ensure image takes full width */
     max-width: 600%; /* Ensure image is responsive */
     height: auto;
     margin-bottom: 20px;
@@ -303,8 +304,8 @@
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   max-width: 90%; /* Limit width for better readability */
-  width: 100%; 
-  margin-left:40px;
+  width: 80%; 
+ 
   padding-bottom:20px;
   
  

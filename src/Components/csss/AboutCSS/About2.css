@@ -125,7 +125,7 @@
             margin-top: -200px;
             visibility: visible;
             position:absolute;
-            margin-right: 45px;
+           
           }
           
           /* Image Container */
@@ -151,6 +151,7 @@
             height: 80vh; /* Increase height for phone screens */
             object-fit: cover; /* Ensures it fills the area properly */
           }
+          
           
           
     }

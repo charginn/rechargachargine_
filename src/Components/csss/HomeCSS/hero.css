@@ -1,19 +1,18 @@
 
 .banner .banner-image{
   width:100%;
-min-height:100vh;
+min-height:80vh;
 left: 0px;
 top: 0px;
-overflow-y: hidden;
-}
-.banner-image {
-  width: 100%; /* Make it larger on smaller screens */
- height:auto /* Allow full scaling */
+
 }
 @media (max-width: 768px) {
+  .banner{
+  height:80vh;
+  }
   .banner-image {
     width: 100%; 
     max-width: none;
-    height:600px !important; 
+    height:500px!important; 
   }
 }

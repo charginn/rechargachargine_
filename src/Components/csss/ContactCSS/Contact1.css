@@ -4,4 +4,8 @@
     object-fit: cover; /* Ensures image covers the screen */
 }
 
-
+@media(max-width: 768px){
+    .contactImage{
+        height:80vh;
+    }
+}

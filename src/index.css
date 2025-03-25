@@ -3,13 +3,14 @@
 @tailwind utilities;
 /* Header → Section */
 html, body {
-  overflow-x: hidden; /* Prevents horizontal scrolling */
+   /* Prevents horizontal scrolling */
   margin: 0;
   padding: 0;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
- overflow-y:auto;
   scroll-behavior: smooth;
+  overflow-x:clip;
+  
 }
 * {
   margin: 0;
@@ -21,12 +22,12 @@ html, body {
 }
 
 .navbar{
+ 
   background-color: rgba(0, 0, 0, 0.4);
   display:flex;
   color:white;
-  overflow: visible;
   position: absolute;  
-  width:99%;
+  width:100%;
   height:170px;
   border-bottom: 0.5px solid grey;
 }
@@ -183,7 +184,7 @@ color:white;
 .navbar .second .top::after {
  content: "";
  display: block;
- width:76.5vw;
+ width:80vw;
  height: 0.5px;
  background-color: grey; /* Grey line */
  position: absolute;
@@ -298,6 +299,7 @@ background:none;
   
 
   .section1{
+    
     height:1000px;
     background-color:black;
     padding-left:100px;
@@ -409,6 +411,7 @@ background:none;
   font-size: 24px;
   line-height: 30px;
   color: #00FE5E;
+  padding-left:40px;
   }
 
 
@@ -432,7 +435,6 @@ background:none;
 
   .section1 .contact {
     font-size: 18px; 
-    padding: 10px 20px; 
     margin-top:30px;
     background-color: #00FE5E; 
     color: black; 
@@ -453,9 +455,34 @@ background:none;
 
   .AboutImage{
     width:100%;
-   
   }
-
+  .aboutText {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    margin-top:-50vh;
+    margin-left: 10vw;
+  }
+  .textlink {
+    color: white !important; /* Always white */
+    text-decoration: none;
+    margin: 0 5px;
+    pointer-events: auto; /* Ensures it's clickable */
+  }
+  
+  .aboutText .upper{
+    font-size: 70px;
+    font-weight: 500;
+  }
+  
+  .textlink:hover,
+.textlink:active,
+.textlink:focus,
+.textlink:visited {
+  color: white!important; /* Keeps the color unchanged */
+  text-decoration: none!important; /* Prevents underline or any other effect */
+  outline: none;
+}
 
 .about2{
   box-sizing:border-box;
@@ -752,8 +779,12 @@ margin-right: 20px;
   margin-top:0px;
 }
 
+  .banner{
+    height:80vh!important;
+  }
   .banner-image {
     width: 100%; 
+    height:80vh!important;
     max-width: none; 
 }
 
@@ -848,6 +879,9 @@ margin-right: 20px;
     
     align-items:start;
   }
+  .section1 .text .list .listItem{
+    padding-right:30px;
+  }
 
   .section1 .contact {
     font-size: 16px;
@@ -877,7 +911,7 @@ margin-right: 20px;
   font-weight: 400;
   color: black;
   background-color: #00FE5E;
-  padding: 8px 12px;
+  padding: 8px 21px;
   border-radius: 10px;
   text-align: center;
 }
