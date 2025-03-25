@@ -687,6 +687,11 @@ background:none;
     padding-top:50px;
     
 }
+.navbar .mobile-menu .contact{
+  margin-left:10px;
+  margin-right:20px;
+  padding-left:165px;
+}
 .navbar{
  height:80px;
  border-bottom: none;
@@ -751,11 +756,7 @@ background:none;
   gap:12px;
   font-size:14px;
 }
-.navbar .mobile-menu .contact {
-margin-left:10px;
-margin-right: 20px;
 
-}
 .mobile-menu .support{
   margin-top:15px;
   display:flex;
@@ -1040,7 +1041,7 @@ visibility:hidden;
     height: auto;
     
   }
-
+  
   .section1 .text .list{
     display:flex;
     margin-left:-330px;
