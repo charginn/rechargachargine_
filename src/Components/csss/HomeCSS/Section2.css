@@ -8,6 +8,7 @@
    padding-bottom:200px;
    overflow:hidden;
    outline: 1px solid red;
+   padding-left:30px;
   }
   .section2 .left{
     margin-left:40px;
@@ -32,6 +33,7 @@
   }
   .section2 .left .background{
     position:relative;
+    margin-top:20px;
    
   }
   .section2 .left .Cards{
