@@ -12,8 +12,8 @@ const About4 = () => {
             <div className='greenLine'></div>
             <div className='block'>
                 <div className='writtenPart'>
-                    <div className='heading'>Definition of recharge chargine generator:</div>
-                    <div className='new'>A Recharge Charging Generator (RCG) is a device that converts mechanical energy
+                    <div className='heading'>Definition of recharga chargine generator:</div>
+                    <div className='new'>A Recharga Chargine Generator (RCG) is a device that converts mechanical energy
                         into usable electrical energy by utilizing the principle of electromagnetic induction,
                         incorporating a multi-rotor concept.</div>
                 </div>
@@ -23,7 +23,7 @@ const About4 = () => {
             </div>
             <div></div>
             <div className='block2'>
-                <div className='block2Part' >
+                <div className='block2Part' id='id1'>
                     <img src={SVG1}/>
                     <div className='heading'>Expert Installation</div>
                     <div className='content'>We offer professional solar
@@ -31,7 +31,7 @@ const About4 = () => {
                         of experienced technicians will
                         ensure it is installed correctly.</div>
                 </div>
-                <div className='block2Part'>
+                <div className='block2Part' id='id2'>
                     <img src={SVG2}/>
                     <div className='heading'>Low Cost operation</div>
                     <div className='content'>We offer professional solar
@@ -39,7 +39,7 @@ const About4 = () => {
                         of experienced technicians will
                         ensure it is installed correctly.</div>
                 </div>
-                <div className='block2Part'>
+                <div className='block2Part'id='id3'>
                     <img src={SVG3}/>
                     <div className='heading'>Instant Support</div>
                     <div className='content'>We offer professional  installation services .Team of experienced technicians will ensure it is installed correctly.</div>

@@ -248,7 +248,7 @@
   .section6 .form-part .form-fill .checkbox-div label {
     font-size: 14px !important;
     font-weight: 600;
-    margin-top:-25px;
+        margin-top:-30px;
     margin-left:23px;
   }
   
@@ -263,14 +263,14 @@
   .section6 .form-part .form-fill .checkbox {
     width: 15px;
     height: 15px;
-    margin-top:-10px; /* Remove top margin for mobile */
+    margin-top:0px; /* Remove top margin for mobile */
     background-color: #d8d8d8;
     
   }
   .section6 .form-part .form-fill checkbox-div label{
     width: 15px;
     height: 15px;
-    margin-top:-20px important; /* Remove top margin for mobile */
+    padding-top:-10px important; /* Remove top margin for mobile */
     background-color: #d8d8d8;
     
   }
