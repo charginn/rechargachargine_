@@ -999,6 +999,11 @@ visibility:hidden;
     height: 520px;
 
  }
+ .navbar .mobile-menu .contact{
+ margin-left:20px;
+ margin-right:28px;
+  padding-left:87px!important;
+ }
   .navbar .first .name {
       font-size: 20px;
   }
