@@ -216,8 +216,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        overflow-x: hidden; 
-        scroll-snap-type: x mandatory;
+        height:260vh;
+        
         padding-bottom: 50px; 
     }
 
@@ -232,8 +232,8 @@
     }
 
     .section5 .howitworks .caps {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 60px;
+        margin-right: 60px;
         display: block;
     }
 
@@ -263,29 +263,20 @@
     .section5 .steps .step1 img,
     .section5 .steps .step2 img,
     .section5 .step3 img {
-        width: 100%;
+        width: 70%;
         height: auto;
     }
 
     .section5 .steps .step1 .greenBack1,
     .section5 .steps .step2 .greenback2,
     .section5 .step3 .greenback3 {
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
-        font-size: 16px;
-        margin-left: auto;
-        margin-right: auto;
+       display:none;
     }
 
     .section5 .steps .step1 .number1,
     .section5 .steps .step2 .number2,
     .section5 .step3 .number3 {
-        font-size: 60px; 
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        display: block;
+        display:none;
     }
 
     .section5 .steps .step1 .green-headline1,
@@ -301,7 +292,7 @@
     .section5 .step3 .step3list {
         padding-left: 0;
         padding-right: 0;
-        text-align: center;
+      
     }
 
     .section5 .steps .step1 .dot1,
@@ -309,38 +300,35 @@
     .section5 .step3 .dot3 {
         display: none; 
     }
-} 
 
-
-   
-@media (max-width: 768px) {
     .section5 .steps .step1, .section5 .steps .step2, .section5 .step3 {
         text-align: center !important;
         width: 90%;
-        margin-left: auto !important;
+        margin-left: auto !iportant;
         margin: 30px;
         margin-right: auto !important;
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    .section5 .steps .step1 img, .section5 .steps .step2 img, .section5 .step3 img {
-       
+    .section5 .steps .step2 {
+        margin-top:-1px;
     }
    
-    .section5 .steps .step1 .green-headline1, .section5 .steps .step2 .green-headline2, .section5 .step3 .green-headline3 {
-        font-size: 27px;
+    .section5 .steps .step1 .green-headline1
+    {
+        font-size: 18px;
         text-align: center;
         margin: 10px 0;
         padding-right: 0px;
         margin-right: 0px;
     }
 
-    .section5 .steps .step1 .step1list, .section5 .steps .step2 .step2list, .section5 .step3 .step3list {
+    .section5 .steps .step2 .step2list, .section5 .step3 .step3list {
         padding-left: 0;
-        padding-right: 0;
-        text-align: center;
-        margin-right: 0px;
+        padding-right: 10px;
+      
+        margin-right: 10px;
     }
     .section5 .howitworks {
       text-align: center;
@@ -348,4 +336,10 @@
       padding-right: 0;
       height: fit-content;
   }
+  .section5 .steps .step1 .step1list{
+    padding-left: 20px;
+    padding-right:4px; 
+  }
+  
 }
+  

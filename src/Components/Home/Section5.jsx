@@ -30,9 +30,9 @@ const Section5 = () => {
                 <div className='number1'>1</div>
               <div className='green-headline1'>Step 1: Mechanical to Electrical Conversion</div>
               <ul className='step1list'>
-              <li>A motor rotates a shaft.</li>
-              <li>The shaft, coupled to the generator, transfers kinetic energy.</li>
-              <li>The generator's rotating magnets induce current in coils, producing electricity.</li>
+              <li className='first1'>A motor rotates a shaft.</li>
+              <li className='first2'>The shaft, coupled to the generator, transfers kinetic energy.</li>
+              <li className='first3'>The generator's rotating magnets induce current in coils, producing electricity.</li>
                </ul>
             </div>
             <img className='sling' src={Sling} />

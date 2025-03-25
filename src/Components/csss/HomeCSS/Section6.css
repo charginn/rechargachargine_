@@ -267,6 +267,13 @@
     background-color: #d8d8d8;
     
   }
+  .section6 .form-part .form-fill input checkbox{
+    width: 15px;
+    height: 15px;
+    margin-top:20px important; /* Remove top margin for mobile */
+    
+    
+  }
 
   
 }
