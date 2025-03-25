@@ -224,7 +224,7 @@
   
   /* Image inside details */
   .about5_1 .details img {
-    width: 100%; /* Ensure image takes full width */
+    width: 120%; /* Ensure image takes full width */
     max-width: 600%; /* Ensure image is responsive */
     height: auto;
     margin-bottom: 20px;
@@ -298,7 +298,7 @@
 
 /* Box inside about5_2 */
 .about5_3 .box {
-  padding: 20px; /* Reduced padding for better spacing */
+ padding: 20px; /* Reduced padding for better spacing */
   background-color:white; /* Light gray background for the box */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
@@ -333,7 +333,7 @@
 
 /* Image inside about5_2 */
 .about5_3 img {
-  width: 100%; /* Ensure image takes full width */
+  width: 80%; /* Ensure image takes full width */
   max-width: 350px; /* Smaller image size for mobile */
   margin-bottom: 20px; /* Add margin below the image */
   order: -1; /* Move image before .box on mobile */
@@ -386,8 +386,7 @@
 
 /* Image inside about5_2 */
 .about5_4 img {
-  width: 100%;
-  px;/* Ensure image takes full width */
+  width: 80%;
   max-width: 350px; /* Smaller image size for mobile */
   margin-bottom: 20px; /* Add margin below the image */
   order: -1; /* Move image before .box on mobile */

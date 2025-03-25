@@ -43,7 +43,7 @@ const Footer = () => {
         <div className='firstElement'>
           <div className='symbol'>
             <img src={Charger2} alt="Logo" />
-            <div className='company'>RECHARGE CHARGINE</div>
+            <div className='company'>RECHARGA CHARGINE</div>
           </div>
           <div className='para'>
             We believe in sustainable energy practices that <br/>can help preserve our planet.
@@ -69,7 +69,7 @@ const Footer = () => {
   
       <div className='third'>
         <div className='copyright'>© Copyright 2024</div>
-        <div className='name'>Recharge Chargine.</div>
+        <div className='name'>Recharga Chargine.</div>
         <div className='right'>All rights reserved.</div>
 
       </div>

@@ -6,7 +6,6 @@ import Section3 from './Section3'
 import Section5 from './Section5'
 import Section4_1 from './Section4_1'
 import Footer from '../../Footer'
-import Navbar from '../../Navbar'
 import Section6 from './Section6'
 import Section4_2 from './Section4_2'
 import { useState ,useRef} from 'react';
@@ -33,7 +32,7 @@ const HomeSection = () => {
         <Section3/>
         {activeSection === 'wind' ?(<Section4_1 setActiveSection={setActiveSection} />) :( <Section4_2 setActiveSection={setActiveSection} />)}
         <Section5/>
-        <Section6 ref={ContactSectionRef}/>
+        <Section6 section6ref={ContactSectionRef}/>
         <Footer/>
     </div>
   )

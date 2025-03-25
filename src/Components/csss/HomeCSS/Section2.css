@@ -1,11 +1,13 @@
 @media (min-width: 1024px){
 .section2{
-    margin-top:100px;
+  padding-top:100px;
     display:flex;
     background: linear-gradient(180deg, #FFFFFF 0%, #E7F8F0 100%);
     box-sizing: border-box;
-   
+   min-height:100vh;
    padding-bottom:200px;
+   overflow:hidden;
+   outline: 1px solid red;
   }
   .section2 .left{
     margin-left:40px;
@@ -115,7 +117,7 @@
      width:80%;
      height:250px;
      margin-top:10px;
-    margin-left:10px;
+    margin-left:0px;
   }
   .section2 .left .background{
     height:250px;
@@ -142,7 +144,7 @@
   .section2 .Right .paragraph {
     font-size: 16px;
     margin-top: 20px ;
-    margin-left:10px;
+    margin-left:0px;
     padding: 0 20px;
    
   }

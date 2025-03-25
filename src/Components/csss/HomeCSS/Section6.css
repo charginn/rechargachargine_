@@ -43,7 +43,7 @@
   .form-part{
     padding-right:40px;
     padding-top:60px;
-    height:70%;
+    height:75%;
     background-color:white;
     margin-left:70px;
     
@@ -60,12 +60,7 @@
     padding-top:10px;
     padding-left:40px;
   }
-  .form-part .form-fill .greenLine{
-    border:none;
-    border-top:5px solid #00FE5E;
-    
-    width:100%;
-  }
+ 
   
   .form-part .form-fill .input1 {
     display:flex;
@@ -111,11 +106,13 @@
     margin-top:25px;
   }
   .form-part .form-fill .input3 button {
-    margin-top:10px;
+    margin-top:13px;
     padding:15px;
     border-radius:30px;
     background-color:#00FE5E;
     border:none;
+    width:100%;
+    color:black;
   }
    .form-part .form-fill .checkbox {
     width:15px;
@@ -134,7 +131,7 @@
     display: flex;
     flex-direction: column; /* Stack content vertically on mobile */
     background: linear-gradient(180deg, #FFFFFF 0%, #E7F8F0 100%);
-    height:120vh; /* Adjust height to fit content */
+    height:105vh; /* Adjust height to fit content */
     padding: 20px; /* Add padding for mobile */
   }
   
@@ -190,7 +187,7 @@
     background-color: white;
     margin-left: 0; /* Remove left margin for mobile */
     margin-top: 20px;
-    height:55%; /* Add spacing between text and form */
+    height:70%; /* Add spacing between text and form */
   }
   
     .section6 .form-part .green-line {

@@ -1,15 +1,15 @@
 
 .section1{
-    height:1000px;
+   
     background-color:black;
     padding-left:100px;
     color:white;
     width:auto;
     display:flex;
-  
+  min-height: 90vh;
     padding-top:0px;
-    margin-top:-5px;
-  
+   
+  overflow:hidden;
     
   }
   .images{

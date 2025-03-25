@@ -8,6 +8,8 @@ html, body {
   padding: 0;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
+ overflow-y:auto;
+  scroll-behavior: smooth;
 }
 * {
   margin: 0;
@@ -291,7 +293,7 @@ background:none;
     height:100vh;
     object-fit: cover;
     filter: brightness(65%);
-    z-index: -1; 
+  
   }
   
 
@@ -704,6 +706,7 @@ background:none;
 .navbar .mobile-menu li a{
   color:white;
   border: 1px solid #00FE5E;
+  width:50px;
   text-decoration: none;
       font-weight:500;
       font-size:18px;
@@ -720,7 +723,11 @@ background:none;
   gap:12px;
   font-size:14px;
 }
+.navbar .mobile-menu .contact {
+margin-left:10px;
+margin-right: 20px;
 
+}
 .mobile-menu .support{
   margin-top:15px;
   display:flex;
@@ -932,14 +939,12 @@ visibility:hidden;
 .about2 .block2 .AboutImage2 {
   display:none;
 }
-.AboutImage {
-  height: 90vh; 
-  object-fit: cover; 
-}
+
 
 .about1{
-  height: 90vh;
+  height: 80vh;
 }
+
 
 }
 @media (max-width: 480px) {
@@ -1096,7 +1101,7 @@ visibility:hidden;
  .about2 .button2{
   padding-top:-123px!important;
   margin-top:-280px!important;
- 
+  color:black;
   margin-left:0px!important;
   margin-right:0px!important;
 
@@ -1119,7 +1124,7 @@ visibility:hidden;
   font-size: 35px!important; 
  }
  .about4{
-  height:160vh !important;
+  height:140vh !important;
   
  }
  .about4 .block2 {
@@ -1160,15 +1165,25 @@ visibility:hidden;
   height:110vh!important;
 }
 .contact2 .contactCard {
-  margin-top:70px!important;
+  margin-top:50px!important;
 }
 .contact3{
-  height:110vh!important;
+  height:100vh!important;
 }
 .contact2 .for {
   margin-top: -20px!important;
   padding-left: 100px!important;
   padding-right: 100px!important;
  
+} .form-part .form-fill .input3 button {
+  margin-top:13px;
+  padding:15px;
+  border-radius:30px;
+  background-color:#00FE5E;
+  border:none;
+  width:100%;
+  color:black;
 }
+
+
 }

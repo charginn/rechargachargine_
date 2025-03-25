@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../csss/HomeCSS/Section6.css';
 
-const Section6 = () => {
+const Section6 = ({section6ref}) => {
   const ref = useRef(null); // ✅ Define ref properly
 
   const [formData, setFormData] = useState({
@@ -69,9 +69,9 @@ const Section6 = () => {
   };
 
   return (
-    <div className='section6' ref={ref}> 
+    <div className='section6' ref={section6ref}> 
       <div className='text-part'>
-        <div className='small'>Contact Recharge Chargine</div>
+        <div className='small'>Contact Recharga Chargine</div>
         <div className='big'>Get In Touch With Us</div>
         <div className='details'>
           We’re finding ways to bring energy to more people in more ways every day.
@@ -105,10 +105,11 @@ const Section6 = () => {
             <input type="checkbox" className='checkbox' name="agreeTerms" onChange={handleChange} checked={formData.agreeTerms} />
             <label> Accept terms and conditions from Recharge Chargine</label>
           </div>
-          <button type="submit" disabled={!isFormValid}>Send Us an Email</button> 
-          </div>
+          <button type="submit"className='' disabled={!isFormValid}>Send us an email</button> {/* ✅ Disable button if form is invalid */}
+        </div>
+
+        
       </form>
-     
     </div>
     </div>
   );
