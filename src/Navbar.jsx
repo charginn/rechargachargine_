@@ -55,7 +55,7 @@ const Navbar = () => {
                 <div className='support'>
                     <img className='headset' src={NewHeadset} alt="Support" />
                     <div className='call'>
-                        <div>Call Support 24/7</div>
+                        <div className='call1'>Call Support 24/7</div>
                         <div className='number'>+91 9322107991</div>
                     </div>
                 </div>

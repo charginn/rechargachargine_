@@ -82,7 +82,7 @@ const Section6 = ({section6ref}) => {
             <div>Our Mail Address</div>
           </div>
           <div className='bottom'>
-            <div>Jaipur, Rajasthan, India</div>
+            <div className='state'>Jaipur, Rajasthan, India</div>
             <div>salesinquiry@rechargachargine.com</div>
           </div>
         </div>

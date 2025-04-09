@@ -1,18 +1,26 @@
 
-.banner .banner-image{
-  width:100%;
-min-height:80vh;
-left: 0px;
-top: 0px;
+.bannerimage{
+  width:120%;
+  height:100vh;;
+}
+.banner{
+  height:100vh;
+}
 
-}
-@media (max-width: 768px) {
+@media(max-width:486px){
   .banner{
-  height:80vh;
+max-height:90vh;
   }
-  .banner-image {
-    width: 100%; 
-    max-width: none;
-    height:500px!important; 
-  }
+  .bannerimage{
+    max-height:90vh;
+   }
 }
+@media(max-height:800px) and (min-height:600px){
+  .banner{
+    max-height:100vh;
+     }
+     .bannerimage{
+      max-height:100vh;
+     }
+}
+

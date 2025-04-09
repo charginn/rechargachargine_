@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import About from '../images/About.png'; 
+import motors from '../images/motors.png'; 
 import { useNavigate } from 'react-router-dom';
 import'../csss/HomeCSS/Section4.css';
 
@@ -41,7 +41,7 @@ const Section4_2 = ({ setActiveSection }) => {  // Receive setActiveSection as a
 
       {/* Main Content */}
       <div className='energy'>
-        <img className='big-image' src={About} alt="Industrial Motors" />
+        <img className='big-image' src={motors} alt="Industrial Motors" />
         <div className='All-details'>
           <div className='over-line'>
             <div className='boxes'>Maintenance</div>

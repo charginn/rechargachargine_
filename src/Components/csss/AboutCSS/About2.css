@@ -107,7 +107,7 @@
             font-size: 20px!important;
             font-weight: 300!important;
             color: white;
-            padding-right: 30px ;
+            padding-right: -10px ;
           }
           
           .about2 .block .Content2 {
@@ -122,7 +122,7 @@
             border-radius: 30px;
             font-size: 16px;
             border: none;
-            margin-top: -200px;
+            margin-top: -180px;
             visibility: visible;
             position:absolute;
            
@@ -140,7 +140,7 @@
           .about2 .block2 .AboutImage1 {
             max-width: 90%; /* Ensure images fit within screen */
             height: auto;
-            margin-top: -130px;
+            margin-top: -100px;
             margin-right: 20px;
           }
           
@@ -154,4 +154,161 @@
           
           
           
+    }
+
+    @media (min-width:768px) and (max-width:870px){
+      .about2{
+       
+        margin-top:-10px;
+        background-color:black;
+        padding-top:100px;
+        padding-left:50px;
+          
+      }
+        .about2 .button{
+          display:block;
+          margin-left:20px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 24px;
+          font-weight: 400;
+          color:black;
+          background-color:#00FE5E;
+          padding:10px;
+          margin-right:1030px;
+          border-radius:10px;
+          
+        }
+        .about2 .button2{
+          margin-top:40px;
+          padding:15px;
+          font-weight:600;
+          font-family: 'Montserrat', sans-serif;
+          border-radius:30px;
+          font-size:20px;
+          border:none;
+        }
+        .about2 .block{
+        
+          
+        }
+        .about2 .block .Content1{
+          margin-top:50px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 20px;
+         padding-right:800px!important;
+          color:white;
+          padding:20px;
+          margin-left:0px
+
+        }
+        .about2 .block .Content2{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 24px;
+          margin-top:50px;
+          font-weight: 400;
+          margin-right:100px;
+          color:white;
+          display:none;
+        }
+        .about2 .block2{
+          margin-top:0px;
+          display:flex;
+          margin-left:20px;
+          
+        }
+        .about2 .block2 .AboutImage1{
+          margin-top:50px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 30px;
+          font-weight: 700;
+          color:white;
+          height:200px;
+          width:300px;
+        }
+        .about2 .block2 .AboutImage2{
+          margin-top:50px;
+          width:100vh;
+          color:white;
+          margin-left:40px;
+          height:200px;
+          width:300px;
+        }
+    }
+    @media (min-width:870px) and (max-width:1000px){
+      .about2{
+       
+        margin-top:-10px;
+        background-color:black;
+        padding-top:100px;
+        padding-left:50px;
+          
+      }
+        .about2 .button{
+          display:block;
+          margin-left:20px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 24px;
+          font-weight: 400;
+          color:black;
+          background-color:#00FE5E;
+          padding:10px;
+          margin-right:1030px;
+          border-radius:10px;
+          
+        }
+        .about2 .button2{
+          margin-top:40px;
+          padding:15px;
+          font-weight:600;
+          font-family: 'Montserrat', sans-serif;
+          border-radius:30px;
+          font-size:20px;
+          border:none;
+        }
+        .about2 .block{
+        
+          
+        }
+        .about2 .block .Content1{
+          margin-top:50px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 20px;
+         padding-right:800px!important;
+          color:white;
+          padding:20px;
+          margin-left:0px
+
+        }
+        .about2 .block .Content2{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 24px;
+          margin-top:50px;
+          font-weight: 400;
+          margin-right:100px;
+          color:white;
+          display:none;
+        }
+        .about2 .block2{
+          margin-top:0px;
+          display:flex;
+          margin-left:20px;
+          
+        }
+        .about2 .block2 .AboutImage1{
+          margin-top:50px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 30px;
+          font-weight: 700;
+          color:white;
+          height:250px;
+          width:370px;
+        }
+        .about2 .block2 .AboutImage2{
+          margin-top:50px;
+          width:100vh;
+          color:white;
+          margin-left:40px;
+          height:250px;
+          width:370px;
+        }
     }

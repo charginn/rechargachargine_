@@ -25,24 +25,24 @@ const Section3 = () => {
                     <div className='heading'>Versatile Applications</div>
                     <p className='content'>From powering wind turbines to optimizing industrial motors, the RCG is adaptable to a wide range of industries.</p>
                     <div className='line'>
-                        <div className='num'>02</div>
-                        <div className='greencard'><img src={BSVG2}/></div>
+                        <div className='num' id='num2'>02</div>
+                        <div className='greencard' id='greencard2'><img src={BSVG2}/></div>
                     </div>
                 </div>
                 <div className='col' id='col2'>
                     <div className='heading'>Sustainable Impact</div>
                     <p className='content'>The RCG reduces carbon emissions and energy costs, contributing to a cleaner, greener planet.</p>
                     <div className='line3   '>
-                        <div className='num3'>03</div>
+                        <div className='num3' >03</div>
                         <div className='greencard3'><img src={BSVG3}/></div>
                     </div>
                 </div>
-                <div className='col' id='col2'>
+                <div className='col' >
                     <div className='heading'>Scalable and Reliable</div>
                     <p className='content'>Designed for modularity and robustness, the RCG seamlessly integrates into operations of any scale.</p>
-                    <div className='line'>
-                        <div className='num' id='id4'>04</div>
-                        <div className='greencard'id='new' ><img src={BSVG3}/></div>
+                    <div className='line4'>
+                        <div className='num4' >04</div>
+                        <div className='greencard4'><img src={BSVG3}/></div>
                     </div>
                 </div>
                

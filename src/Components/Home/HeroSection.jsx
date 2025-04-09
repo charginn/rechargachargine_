@@ -8,7 +8,7 @@ const HeroSection = () => {
     <img
       src={image}
       alt="Windmill"
-      className="banner-image"
+      className="bannerimage"
     />
     </div>
   )
