@@ -44,7 +44,7 @@ const About4 = () => {
                     <div className='heading'>Instant Support</div>
                     <div className='content'>We offer professional  installation services .Team of experienced technicians will ensure it is installed correctly.</div>
                 </div>
-                <div className='block2Part'>
+                <div className='block2Part' id='id4'>
                     <img src={SVG4}/>
                     <div className='heading'>Modern Technology</div>
                     <div className='content'>We offer professional solar

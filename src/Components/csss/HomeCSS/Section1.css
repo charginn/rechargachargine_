@@ -5,7 +5,7 @@
     color:white;
     width:auto;
     display:flex;
-    max-height:180vh;
+   
     padding-top:-50px!important;
    
   }
@@ -137,7 +137,6 @@
   color:white;
   width:auto;
   display:flex;
-  max-height:220vh!important;
 }
 
    }
@@ -360,7 +359,7 @@
     @media (max-width: 486px)
     {
       .section1 {
-        height: auto;
+       
         padding-top: 50px!important;
         display: flex;
         flex-direction: column;
