@@ -524,18 +524,16 @@ visibility:hidden;
 
 
 
-
-.about5_3 img {
-  width: 100%; 
-  max-width: 300px!important; 
-  margin-bottom: 20px; 
-  order: -1; 
-}.about5_4 img {
-  width: 100%; 
-  max-width: 300px!important; 
-  margin-bottom: 20px; 
-  order: -1; 
+ .about4{
+  height:140vh !important;
+  
+ }
+ .about4 .block2 {
+  display:flex;
+  margin-left:0px!important;
+ 
 }
+
 .about4 .block2Part .heading{
   font-size: 15px!important;
   padding-left:10px;
