@@ -53,11 +53,11 @@ const Footer = () => {
         <div className='call'>
           <div>
           <div className='caps'>CONTACT US </div>
-          <div className='name'>Recharga Chargine</div>
+          <div className='name'>RechargaChargine</div>
           </div>
           <div className='three'>
           <div className='t1'>sahej.sharma@rechargachargine.com</div>
-          <div className='t2'>+91-9322107991</div>
+          <div className='t2'>+919322107991</div>
           </div>
         </div>
       </div>
