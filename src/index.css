@@ -553,6 +553,8 @@ visibility:hidden;
 }
 
 
+
+
 @media (min-width:1152px) and (max-width: 1300px) {
  
 .navbar{
@@ -603,7 +605,7 @@ visibility:hidden;
  display:flex;
  flex-direction:row;
  top:25px;
- margin-left:30px;
+ margin-left:630px;
  gap:20px;
  
 }
@@ -718,8 +720,8 @@ color:white;
  height: 0.5px;
  background-color: grey; /* Grey line */
  position: absolute;
- top:40px; /* Adjust distance below the section */
- left: 0;
+ top:50px; /* Adjust distance below the section */
+ left: 600px;
 }
 .navbar .bottom .parts li a {
  color: white; /* Default color */
@@ -739,15 +741,15 @@ color:white;
 .navbar .vl2
 {
  border-right:0.5px solid grey;
- height:90px;
+ height:80px;
  margin-left:90px;
- margin-top:35px;
+ margin-top:45px;
 }
 .vl3{
  border-right:0.5px solid grey;
- height:90px;
+ height:80px;
  margin-left:30px;
-margin-top:35px;
+margin-top:45px;
 }
 
 .navbar .bottom .last{
@@ -904,7 +906,7 @@ background:none;
   .navbar .second{
    display:flex;
    flex-direction:row;
-   top:30px;
+   top:-30px;
    width:250px;
    gap:20px;
    
@@ -1006,7 +1008,7 @@ background:none;
    height: 0.5px;
    background-color: grey; /* Grey line */
    position: absolute;
-   top:50px; /* Adjust distance below the section */
+   top:110px; /* Adjust distance below the section */
    left: 0;
   }
   .navbar .bottom .parts li a {
@@ -1216,7 +1218,7 @@ background:none;
   .navbar .second{
    display:flex;
    flex-direction:row;
-   top:30px;
+   top:-30px;
    width:250px;
    gap:20px;
    
@@ -1319,7 +1321,7 @@ background:none;
    height: 0.5px;
    background-color: grey; /* Grey line */
    position: absolute;
-   top:50px; /* Adjust distance below the section */
+   top:110px; /* Adjust distance below the section */
    left: 0;
   }
   .navbar .bottom .parts li a {
@@ -1413,7 +1415,7 @@ background:none;
   .navbar .second{
    display:flex;
    flex-direction:row;
-   top:30px;
+   top:-30px;
    width:250px;
    gap:30px;
    
@@ -1537,7 +1539,7 @@ background:none;
    height: 0.5px;
    background-color: grey; /* Grey line */
    position: absolute;
-   top:40px; /* Adjust distance below the section */
+   top:110px; /* Adjust distance below the section */
    left: 0;
   }
   .navbar .bottom .parts li a {
@@ -1558,9 +1560,9 @@ background:none;
   .navbar .vl2
   {
    border-right:0.5px solid grey;
-   height:90px;
+   height:80px;
    margin-left:70px;
-   margin-top:35px;
+   margin-top:45px;
   }
   .vl3{
    border-right:0.5px solid grey;
@@ -1628,7 +1630,7 @@ background:none;
     .navbar .second{
      display:flex;
      flex-direction:row;
-     top:30px;
+     top:-30px;
      width:250px;
      gap:30px;
      
@@ -1752,7 +1754,7 @@ background:none;
      height: 0.5px;
      background-color: grey; /* Grey line */
      position: absolute;
-     top:40px; /* Adjust distance below the section */
+     top:110px; /* Adjust distance below the section */
      left: 0;
     }
     .navbar .bottom .parts li a {
@@ -1773,9 +1775,9 @@ background:none;
     .navbar .vl2
     {
      border-right:0.5px solid grey;
-     height:90px;
+     height:80px;
      margin-left:70px;
-     margin-top:35px;
+     margin-top:45px;
     }
     .vl3{
      border-right:0.5px solid grey;
