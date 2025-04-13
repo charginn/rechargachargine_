@@ -1,26 +1,18 @@
 
 .bannerimage{
-  width:120%;
-  height:100vh;;
+  width:100vw;
+  height:90vh;;
 }
-.banner{
-  height:100vh;
-}
+ .banner{
+  height:90vh;
+ }
 
-@media(max-width:486px){
-  .banner{
-max-height:90vh;
-  }
+@media(max-width:768px){
+  
   .bannerimage{
-    max-height:90vh;
+    height:90vh;
+
    }
 }
-@media(max-height:800px) and (min-height:600px){
-  .banner{
-    max-height:100vh;
-     }
-     .bannerimage{
-      max-height:100vh;
-     }
-}
+
 
