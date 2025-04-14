@@ -378,7 +378,7 @@
     height: auto;
     padding: 20px;
     left: 0;
-    top:0px;
+    top:-80px!important;
     bottom: 0;
     box-shadow: none;
   }
@@ -489,7 +489,7 @@
     height: auto;
     padding: 20px;
     left: 0;
-    margin-top:50px!important;
+    margin-top:-10px!important;
     bottom: 0;
     box-shadow: none;
   }
@@ -501,23 +501,12 @@
     height: auto;
     padding: 20px;
     left: 0;
-    top:0px;
+    top:-100px!important;
     bottom: 0;
     box-shadow: none;
   }
 
-  .section4_2 .All-details
-  {
-    position: relative;
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    left: 0;
-    top:-50px;
-    bottom: 0;
-    box-shadow: none;
-  }
-  
+ 
 
   .section4_1 .boldsent,
   .section4_2 .boldsent {
@@ -529,7 +518,7 @@
   .section4_2 .more-details {
     font-size: 14px!important;
     text-align: center;
-    padding-top: 10px!important;
+    padding-top: 0px!important;
   }
 
   .section4_1 .boxes,
@@ -545,6 +534,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top:-5px;
   }
   .section4_1 .All-details .over-line,
   .section4_2 .All-details .over-line{
@@ -552,6 +542,15 @@
     flex-direction:row;  
    
   }
+
+
+  .section4_1 .line {
+    border: none;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 0px 20px 20px 20px;
+    box-shadow: 2px 0 2px rgba(128, 128, 128, 0.2);
+
+}
   }
   @media (max-width:1100px) and (min-width:900px){
     .section4_1{

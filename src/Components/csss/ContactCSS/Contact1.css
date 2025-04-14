@@ -1,12 +1,2 @@
 
 
-@media(max-width: 768px){
-    .contactImage{
-        height:80vh;
-    }
-}
-.contactImage {
-    width: 100vw;  
-    height: 90vh!important; 
-    
-  }

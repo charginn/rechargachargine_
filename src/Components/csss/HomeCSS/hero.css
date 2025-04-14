@@ -1,16 +1,16 @@
 
 .bannerimage{
   width:100vw;
-  height:90vh;;
+  height:100vh;;
 }
  .banner{
-  height:90vh;
+  height:100vh;
  }
 
 @media(max-width:768px){
   
   .bannerimage{
-    height:90vh;
+    height:100vh;
 
    }
 }

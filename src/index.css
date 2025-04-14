@@ -285,32 +285,22 @@ background:none;
   }
   
 
-  .about1{
-    height:90vh;
-   }
+  
    .AboutImage{
-    height:90vh!important;
+    height:100vh!important;
    }
    
-  @media(max-width: 768px){
-    .contactImage{
-        height:80vh;
-    }
-  }
-  .contactImage {
-    width: 100vw;  
-    height: 90vh!important; 
-    
-  }
+  
   
   .AboutImage{
     width:100vw;
+
   }
 
    
   @media(max-width: 768px){
     .AboutImage{
-        height:80vh!important;
+        height:100vh!important;
     }
   }
   .aboutText {
@@ -510,7 +500,7 @@ visibility:hidden;
 
 
 .about1{
-  height: 80vh;
+  height: 100vh;
 }
 
 
@@ -1219,7 +1209,7 @@ background:none;
 }
 .mobile-menu .mail{
   display:flex;
-  margin-top:95px;
+  margin-top:35px;
   gap:12px;
   font-size:14px;
 }
@@ -4260,9 +4250,8 @@ margin-left:500px;
       text-align: center;
       margin-top:65px;
       font-size:12px;
-      margin-left:70px;
+      margin-left:100px;
     }
-  
     .footer .second .call .three{
         display:flex;
         flex-direction:column;
@@ -4394,7 +4383,7 @@ margin-left:500px;
       text-align: center;
       margin-top:65px;
       font-size:12px;
-      margin-left:70px;
+      margin-left:120px;
     }
   
     .footer .second .call .three{
@@ -4528,7 +4517,7 @@ margin-left:500px;
       text-align: center;
       margin-top:65px;
       font-size:12px;
-      margin-left:70px;
+      margin-left:270px!important;
     }
   
     .footer .second .call .three{
@@ -4662,7 +4651,7 @@ margin-left:500px;
       text-align: center;
       margin-top:65px;
       font-size:12px;
-      margin-left:70px;
+      margin-left:320px;
     }
   
     .footer .second .call .three{
@@ -5128,7 +5117,7 @@ left:600px;
     text-align: center;
     margin-top:65px;
     font-size:12px;
-    margin-left:70px;
+    margin-left:470px!important;
   }
 
   .footer .second .call .three{
@@ -5243,7 +5232,7 @@ left:600px;
  
   display:flex;
   flex-direction:row;
- top:-23vh;
+ top:-18vh;
   position:relative;
   color:white;
   left:-600px;
@@ -5300,7 +5289,7 @@ margin-top:300px;
 left:600px;
 }
 .footer .second .call .caps{
-    margin-top:-75px;
+    margin-top:-35px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -5343,7 +5332,13 @@ left:600px;
     display:flex;
     justify-content:space-between;
     gap:100px;
-}}
+}
+
+.t2{
+  display:none;
+}
+
+}
 
 
 @media (min-width:1150px) and  (max-width:1200px)
@@ -5440,7 +5435,7 @@ left:600px;
  
   display:flex;
   flex-direction:row;
- top:-23vh;
+ top:-18vh;
   position:relative;
   color:white;
   left:-600px;
@@ -5637,7 +5632,7 @@ left:620px;
  
   display:flex;
   flex-direction:row;
- top:-23vh;
+ top:-18vh;
   position:relative;
   color:white;
   left:-600px;
@@ -5835,7 +5830,7 @@ left:550px;
  
   display:flex;
   flex-direction:row;
- top:-23vh;
+ top:-18vh;
   position:relative;
   color:white;
   left:-600px;
@@ -6032,7 +6027,7 @@ left:600px;
  
   display:flex;
   flex-direction:row;
- top:-23vh;
+ top:-18vh;
   position:relative;
   color:white;
   left:-600px;
@@ -6229,7 +6224,7 @@ left:600px;
  
   display:flex;
   flex-direction:row;
- top:-23vh;
+ top:-18vh;
   position:relative;
   color:white;
   left:-600px;
@@ -6930,13 +6925,21 @@ left:600px;
 
 //contact
 @media(max-width: 768px){
+
+  .contact{
+    height:100vh;
+  }
   .contactImage{
-      height:80vh;
+      height:100vh!important;
+      width: 100vw!important;  
   }
 }
+
+
+
 .contactImage {
-  width: 100vw;  
-  height: 90vh!important; 
+  width: 100vw!important;  
+  height: 100vh!important; 
   
 }
 

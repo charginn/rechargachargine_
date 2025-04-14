@@ -3314,7 +3314,7 @@
       background-color:black;
       color:white;
       display:flex;
-      height:180vh;
+      height:180vh!important;
       position:relative;
 
      }
@@ -3548,7 +3548,7 @@
     background-color:black;
     color:white;
     display:flex;
-    height:150vh;
+    height:180vh;
     position:relative;
     overflow:hidden;
    }
